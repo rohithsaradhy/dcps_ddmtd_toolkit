@@ -1,8 +1,8 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------
-| Tool Version     : Vivado v.2019.2 (lin64) Build 2708876 Wed Nov  6 21:39:14 MST 2019
-| Date             : Tue Oct 12 00:50:20 2021
-| Host             : havi running 64-bit Pop!_OS 21.04
+| Tool Version     : Vivado v.2019.2 (win64) Build 2708876 Wed Nov  6 21:40:23 MST 2019
+| Date             : Fri Dec  3 00:04:27 2021
+| Host             : LAPTOP-LEHA1130 running 64-bit major release  (build 9200)
 | Command          : report_power -file main_power_routed.rpt -pb main_power_summary_routed.pb -rpx main_power_routed.rpx
 | Design           : main
 | Device           : xczu2cg-sfvc784-1-e
@@ -53,15 +53,15 @@ Table of Contents
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
 | Clocks                   |     0.092 |        4 |       --- |             --- |
-| CLB Logic                |     0.168 |    38003 |       --- |             --- |
+| CLB Logic                |     0.169 |    38002 |       --- |             --- |
 |   LUT as Distributed RAM |     0.105 |     1968 |     28800 |            6.83 |
-|   LUT as Logic           |     0.048 |     8477 |     47232 |           17.95 |
-|   LUT as Shift Register  |     0.008 |      955 |     28800 |            3.32 |
-|   Register               |     0.007 |    20504 |     94464 |           21.71 |
+|   LUT as Logic           |     0.048 |     8466 |     47232 |           17.92 |
+|   LUT as Shift Register  |     0.009 |      955 |     28800 |            3.32 |
+|   Register               |     0.007 |    20503 |     94464 |           21.70 |
 |   CARRY8                 |    <0.001 |       30 |      8820 |            0.34 |
 |   Others                 |     0.000 |      731 |       --- |             --- |
 |   F7/F8 Muxes            |     0.000 |       13 |     70560 |            0.02 |
-| Signals                  |     0.091 |    27699 |       --- |             --- |
+| Signals                  |     0.091 |    27689 |       --- |             --- |
 | Block RAM                |     0.174 |       72 |       150 |           48.00 |
 | I/O                      |     0.124 |       51 |       252 |           20.24 |
 | PS8                      |     1.551 |        1 |       --- |             --- |
@@ -78,7 +78,7 @@ Table of Contents
 +-----------------+-------------+-----------+-------------+------------+
 | Source          | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------------+-------------+-----------+-------------+------------+
-| Vccint          |       0.850 |     0.646 |       0.590 |      0.055 |
+| Vccint          |       0.850 |     0.646 |       0.591 |      0.055 |
 | Vccint_io       |       0.850 |     0.037 |       0.010 |      0.027 |
 | Vccbram         |       0.850 |     0.028 |       0.027 |      0.001 |
 | Vccaux          |       1.800 |     0.048 |       0.000 |      0.048 |
@@ -150,7 +150,7 @@ Table of Contents
 | Clock     | Domain                                                            | Constraint (ns) |
 +-----------+-------------------------------------------------------------------+-----------------+
 | CLK_REF_P | CLK_REF_P                                                         |             3.1 |
-| clk_pl_0  | desing_ins/design_1_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0] |             6.2 |
+| clk_pl_0  | desing_ins/design_1_i/zynq_ultra_ps_e_0/inst/pl_clk_unbuffered[0] |             6.3 |
 +-----------+-------------------------------------------------------------------+-----------------+
 
 
@@ -164,7 +164,7 @@ Table of Contents
 | Name                        | Power (W) |
 +-----------------------------+-----------+
 | main                        |     2.200 |
-|   DDMTD_Array_inst          |     0.056 |
+|   DDMTD_Array_inst          |     0.055 |
 |     ddmtd_inst[0].DDMTD_i   |     0.002 |
 |     ddmtd_inst[10].DDMTD_i  |     0.002 |
 |     ddmtd_inst[11].DDMTD_i  |     0.002 |

@@ -1,0 +1,347 @@
+/*
+
+Xilinx Vivado v2019.2 (64-bit) [Major: 2019, Minor: 2]
+SW Build: 2708876 on Wed Nov  6 21:40:23 MST 2019
+IP Build: 2700528 on Thu Nov  7 00:09:20 MST 2019
+
+Process ID (PID): 20756
+License: Customer
+
+Current time: 	Thu Dec 02 23:25:23 CST 2021
+Time zone: 	Central Standard Time (America/Chicago)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 12
+
+Screen size: 1920x1080
+Screen resolution (DPI): 125
+Available screens: 1
+Available disk space: 448 GB
+Default font: family=Segoe UI,name=Segoe UI,style=plain,size=15
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2019.2/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	naika
+User home directory: C:/Users/naika
+User working directory: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2019.2
+RDI_DATADIR: C:/Xilinx/Vivado/2019.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2019.2/bin
+
+Vivado preferences file location: C:/Users/naika/AppData/Roaming/Xilinx/Vivado/2019.2/vivado.xml
+Vivado preferences directory: C:/Users/naika/AppData/Roaming/Xilinx/Vivado/2019.2/
+Vivado layouts directory: C:/Users/naika/AppData/Roaming/Xilinx/Vivado/2019.2/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2019.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/vivado.log
+Vivado journal file location: 	C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/vivado.jou
+Engine tmp dir: 	C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/.Xil/Vivado-20756-LAPTOP-LEHA1130
+
+Xilinx Environment Variables
+----------------------------
+XILINX: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2019.2/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO: C:/Xilinx/Vivado/2019.2
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2019.2
+
+
+GUI allocated memory:	160 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 674 MB
+
+Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 102 MB (+104121kb) [00:00:06]
+// [Engine Memory]: 589 MB (+465734kb) [00:00:06]
+// bB (cr):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\naika\Documents\GitHub\dcps_ddmtd_toolkit\firmware\firmware_DCPS\project_2_bram.xpr. Version: Vivado v2019.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 743 MB. GUI used memory: 49 MB. Current time: 12/2/21, 11:25:25 PM CST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: BDCELL_LOCK_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: IP_LOCK_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 849 MB (+242119kb) [00:00:18]
+// [Engine Memory]: 897 MB (+5905kb) [00:00:20]
+// WARNING: HEventQueue.dispatchEvent() is taking  3479 ms.
+// Tcl Message: open_project C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from '/home/rsaradhy/Work/trenz/firmware/firmware_DCPS' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 938.332 ; gain = 277.062 
+// Project name: project_2_bram; location: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS; part: xczu2cg-sfvc784-1-e
+dismissDialog("Open Project"); // bB (cr)
+// a (cr): Critical Messages: addNotify
+// [Engine Memory]: 944 MB (+1826kb) [00:00:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 950 MB. GUI used memory: 60 MB. Current time: 12/2/21, 11:25:40 PM CST
+// [GUI Memory]: 109 MB (+2109kb) [00:02:41]
+// [GUI Memory]: 119 MB (+4756kb) [00:03:31]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 268ms to process. Increasing delay to 2000 ms.
+// Elapsed time: 541 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (cr)
+// [GUI Memory]: 128 MB (+3573kb) [00:09:28]
+// PAPropertyPanels.initPanels (main.v) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, cr)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (cr): Run Synthesis: addNotify
+// Elapsed time: 205 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (cr)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 6 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/ip/FIFO_10/FIFO_10.xci' is already up-to-date 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec  2 23:38:24 2021] Launched synth_1... Run output will be captured here: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 215 seconds
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 403ms to process. Increasing delay to 3000 ms.
+// aj (cr): Synthesis Completed: addNotify
+// Elapsed time: 237 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bB (cr):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 6 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/ip/FIFO_10/FIFO_10.xci' is already up-to-date 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Dec  2 23:42:26 2021] Launched impl_1... Run output will be captured here: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 962 MB. GUI used memory: 62 MB. Current time: 12/2/21, 11:55:41 PM CST
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_STEP_COMPLETED
+// aj (cr): Implementation Completed: addNotify
+// Elapsed time: 1398 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, aj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (cr): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (cr)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bB (cr):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 6 
+// Tcl Message: INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/ip/FIFO_10/FIFO_10.xci' is already up-to-date 
+// Tcl Message: [Fri Dec  3 00:05:49 2021] Launched impl_1... Run output will be captured here: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bB (cr)
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// aj (cr): Bitstream Generation Completed: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 970 MB. GUI used memory: 64 MB. Current time: 12/3/21, 12:08:26 AM CST
+// Elapsed time: 157 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, aj)
+selectRadioButton(PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN, "Open Implemented Design"); // a (Q, aj)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aj)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bB (cr):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,827 MB. GUI used memory: 64 MB. Current time: 12/3/21, 12:08:41 AM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1320 ms. Increasing delay to 3000 ms.
+// [Engine Memory]: 2,031 MB (+1090302kb) [00:43:45]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,293 MB. GUI used memory: 64 MB. Current time: 12/3/21, 12:09:11 AM CST
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: SIGNAL_HIERARCHY_CHANGED
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: POWER_CNS_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 2,469 MB (+352655kb) [00:44:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,469 MB. GUI used memory: 64 MB. Current time: 12/3/21, 12:09:28 AM CST
+// [Engine Memory]: 2,608 MB (+16657kb) [00:44:15]
+// [GUI Memory]: 136 MB (+1909kb) [00:44:15]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: C:/Xilinx/Vivado/2019.2/data/parts/xilinx/zynquplus/devint/zynquplus/xczu2cg/xczu2cg.xgd; ZipEntry: xczu2cg_detail.xgd elapsed time: 1.1s
+// [GUI Memory]: 156 MB (+13459kb) [00:44:17]
+// Device: addNotify
+// DeviceView Instantiated
+// WARNING: HEventQueue.dispatchEvent() is taking  3022 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xczu2cg-sfvc784-1-e 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1888.531 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 318 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2562.492 ; gain = 33.066 
+// Tcl Message: Restored from archive | CPU: 7.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2562.492 ; gain = 33.066 Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 2562.492 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 267 instances were transformed.   IBUF => IBUF (IBUFCTRL, INBUF): 7 instances   IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 13 instances   IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance    RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 246 instances  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:01:12 ; elapsed = 00:01:00 . Memory (MB): peak = 2759.758 ; gain = 1766.395 
+// ExpRunCommands.openImplResults elapsed time: 61.2s
+// TclEventType: DRC_ADDED
+// [GUI Memory]: 168 MB (+4434kb) [00:44:20]
+// TclEventType: METHODOLOGY_ADDED
+// [GUI Memory]: 177 MB (+69kb) [00:44:20]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 8.7s
+// Device view-level: 0.1
+// [Engine Memory]: 2,946 MB (+218075kb) [00:44:23]
+// TclEventType: POWER_UPDATED
+// [Engine Memory]: 3,250 MB (+163613kb) [00:44:29]
+// [GUI Memory]: 186 MB (+450kb) [00:44:29]
+// [GUI Memory]: 202 MB (+7386kb) [00:44:52]
+// [Engine Memory]: 4,294 MB (+924997kb) [00:44:52]
+// [GUI Memory]: 213 MB (+269kb) [00:44:54]
+// WARNING: HEventQueue.dispatchEvent() is taking  27711 ms.
+// TclEventType: TIMING_SUMMARY_UPDATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,434 MB. GUI used memory: 154 MB. Current time: 12/3/21, 12:10:12 AM CST
+// TclEventType: TIMING_SUMMARY_UPDATED
+// WARNING: HEventQueue.dispatchEvent() is taking  1102 ms.
+// 'dQ' command handler elapsed time: 100 seconds
+// Device view-level: 0.2
+// Device view-level: 0.1
+// [Engine Memory]: 4,618 MB (+114331kb) [00:45:00]
+// Elapsed time: 101 seconds
+dismissDialog("Open Implemented Design"); // bB (cr)
+// RouteApi::initDelayMediator elapsed time: 53.8s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Elapsed time: 884 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL (aI, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // i (h, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 155 MB. Current time: 12/3/21, 12:25:23 AM CST
+// Device view-level: 0.4
+// Device view-level: 1.2
+// Device view-level: 1.5
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 155 MB. Current time: 12/3/21, 12:25:26 AM CST
+// Device view-level: 1.2
+// Device view-level: 0.6
+// Device view-level: 0.4
+// Device view-level: 0.1
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 157 MB. Current time: 12/3/21, 12:25:27 AM CST
+// Elapsed time: 119 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // i (h, cr)
+// Elapsed time: 25 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  1062 ms.
+// Elapsed time: 11 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aL (aI, cr)
+// Elapsed time: 19 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), sync_BEAT_REF1 : sync_ddr (sync_ddr.v)]", 2, false); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (F, cr)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cr)
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (F, cr)
+// Elapsed time: 37 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // i (h, cr)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Power", 5); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "DRC", 6); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Methodology", 7); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Timing", 8); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL (aI, cr)
+// Elapsed time: 46 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), sync_BEAT_REF1 : sync_ddr (sync_ddr.v)]", 2, false); // B (F, cr)
+// Elapsed time: 40 seconds
+selectTab((HResource) null, (HResource) null, "Log", 2); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Power", 5); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Methodology", 7); // aL (aI, cr)
+// Elapsed time: 81 seconds
+selectTab((HResource) null, (HResource) null, "DRC", 6); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Methodology", 7); // aL (aI, cr)
+// Elapsed time: 214 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), sync_BEAT_REF2 : sync_ddr (sync_ddr.v)]", 3, false); // B (F, cr)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), sync_AQ0 : sync_ddr (sync_ddr.v)]", 4, false); // B (F, cr)
+// Elapsed time: 43 seconds
+selectTab((HResource) null, (HResource) null, "DRC", 6); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Power", 5); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Reports", 3); // aL (aI, cr)
+selectTab((HResource) null, (HResource) null, "Log", 2); // aL (aI, cr)
