@@ -345,3 +345,469 @@ selectTab((HResource) null, (HResource) null, "Power", 5); // aL (aI, cr)
 selectTab((HResource) null, (HResource) null, "Design Runs", 4); // aL (aI, cr)
 selectTab((HResource) null, (HResource) null, "Reports", 3); // aL (aI, cr)
 selectTab((HResource) null, (HResource) null, "Log", 2); // aL (aI, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 156 MB. Current time: 12/3/21, 12:55:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 153 MB. Current time: 12/3/21, 1:25:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 152 MB. Current time: 12/3/21, 1:55:32 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 152 MB. Current time: 12/3/21, 2:25:33 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1984 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 152 MB. Current time: 12/3/21, 2:55:34 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 152 MB. Current time: 12/3/21, 3:25:34 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1450 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 152 MB. Current time: 12/3/21, 6:45:46 AM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 3419 ms. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 10807047 ms. Increasing delay to 32421141 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1473 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 152 MB. Current time: 12/3/21, 11:45:03 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2874 ms.
+// Elapsed time: 40074 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), sync_BEAT_REF1 : sync_ddr (sync_ddr.v)]", 2, false); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// WARNING: HEventQueue.dispatchEvent() is taking  1793 ms.
+// Elapsed time: 61 seconds
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aL (aI, cr)
+// Elapsed time: 18 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_CONSTRAINTS, "Constraints"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_IMPORT, "Import"); // af (cr)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // af (cr)
+// Elapsed time: 10 seconds
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // aa (q, cr)
+// Elapsed time: 398 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), DDMTD_Array_inst : DDMTD_Array (DDMTD_Array.v)]", 16, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), desing_ins : design_1_wrapper (design_1_wrapper.v)]", 17, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), desing_ins : design_1_wrapper (design_1_wrapper.v)]", 17, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), desing_ins : design_1_wrapper (design_1_wrapper.v)]", 17, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), desing_ins : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 18, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), desing_ins : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 18, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), desing_ins : design_1_wrapper (design_1_wrapper.v), design_1_i : design_1 (design_1.bd)]", 18, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// bB (cr):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/bd/design_1/design_1.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  4293 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+// Elapsed time: 14 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_LOCK_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 4875.453 ; gain = 0.000 
+dismissDialog("Open Block Design"); // bB (cr)
+// Elapsed time: 732 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1, true, false, false, false, false, true); // B (F, cr) - Double Click - Node
+// Elapsed time: 495 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v)]", 1); // B (F, cr)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), DDMTD_Array_inst : DDMTD_Array (DDMTD_Array.v)]", 16, true); // B (F, cr) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), DDMTD_Array_inst : DDMTD_Array (DDMTD_Array.v)]", 16, true); // B (F, cr) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main (main.v), DDMTD_Array_inst : DDMTD_Array (DDMTD_Array.v)]", 16); // B (F, cr)
+// Elapsed time: 14 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, cr)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (O, cr)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u (O, cr)
+// A (cr): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bB (cr):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cr)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xczu2cg-sfvc784-1-e Top: main 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 160 MB. Current time: 12/3/21, 12:15:02 PM CST
+// TclEventType: ELABORATE_FINISH
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 4,736 MB. GUI used memory: 160 MB. Current time: 12/3/21, 12:15:51 PM CST
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 4,860 MB (+11827kb) [12:50:38]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 2.6s
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3956 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 4875.453 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'main' [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/new/main.v:23] 
+// Tcl Message: 	Parameter RESET_COUNT bound to: 1000000 - type: integer  	Parameter RESET_RUN bound to: 950000 - type: integer  	Parameter NUM_DDMTD bound to: 24 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter START_COUNT bound to: 32 - type: integer  	Parameter NUM_BYTES bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:46225] 
+// Tcl Message: 	Parameter CAPACITANCE bound to: DONT_CARE - type: string  	Parameter IOSTANDARD bound to: DEFAULT - type: string  	Parameter SLEW bound to: SLOW - type: string  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (1#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:46225] INFO: [Synth 8-6157] synthesizing module 'IBUFGDS' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:33416] 
+// Tcl Message: 	Parameter CAPACITANCE bound to: DONT_CARE - type: string  	Parameter DIFF_TERM bound to: FALSE - type: string  	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string  	Parameter IBUF_LOW_PWR bound to: TRUE - type: string  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'IBUFGDS' (2#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:33416] INFO: [Synth 8-6157] synthesizing module 'IBUFDS' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:32952] 
+// Tcl Message: 	Parameter CAPACITANCE bound to: DONT_CARE - type: string  	Parameter DIFF_TERM bound to: FALSE - type: string  	Parameter DQS_BIAS bound to: FALSE - type: string  	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string  	Parameter IBUF_LOW_PWR bound to: TRUE - type: string  	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string  	Parameter IOSTANDARD bound to: DEFAULT - type: string  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'IBUFDS' (3#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:32952] INFO: [Synth 8-6157] synthesizing module 'sync_ddr' [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/new/sync_ddr.v:23] INFO: [Synth 8-6157] synthesizing module 'IDDRE1' [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:34944] 
+// Tcl Message: 	Parameter DDR_CLK_EDGE bound to: OPPOSITE_EDGE - type: string  	Parameter IS_CB_INVERTED bound to: 1'b1  	Parameter IS_C_INVERTED bound to: 1'b0  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'IDDRE1' (4#1) [C:/Xilinx/Vivado/2019.2/scripts/rt/data/unisim_comp.v:34944] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'sync_ddr' (5#1) [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/new/sync_ddr.v:23] INFO: [Synth 8-6157] synthesizing module 'DDMTD_Array' [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/imports/new/DDMTD_Array.v:23] 
+// Tcl Message: 	Parameter NUM_DDMTD bound to: 24 - type: integer  	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter C_M_START_COUNT bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'DDMTD_Sampler' [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/imports/new/DDMTD_Sampler.v:23] 
+// Tcl Message: 	Parameter DATA_WIDTH bound to: 32 - type: integer  	Parameter C_M_START_COUNT bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'FIFO_10' [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/.Xil/Vivado-20756-LAPTOP-LEHA1130/realtime/FIFO_10_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'FIFO_10' (6#1) [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/.Xil/Vivado-20756-LAPTOP-LEHA1130/realtime/FIFO_10_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'design_1_axi_bram_ctrl_0_bram_8' [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/.Xil/Vivado-20756-LAPTOP-LEHA1130/realtime/design_1_axi_bram_ctrl_0_bram_8_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_bram_ctrl_0_bram_8' (11#1) [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/.Xil/Vivado-20756-LAPTOP-LEHA1130/realtime/design_1_axi_bram_ctrl_0_bram_8_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'design_1_axi_bram_ctrl_0_bram1_0' [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/.Xil/Vivado-20756-LAPTOP-LEHA1130/realtime/design_1_axi_bram_ctrl_0_bram1_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_bram_ctrl_0_bram1_0' (12#1) [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/.Xil/Vivado-20756-LAPTOP-LEHA1130/realtime/design_1_axi_bram_ctrl_0_bram1_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps8_0_200M_0' [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/.Xil/Vivado-20756-LAPTOP-LEHA1130/realtime/design_1_rst_ps8_0_200M_0_stub.v:6] INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps8_0_200M_0' (17#1) [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/.Xil/Vivado-20756-LAPTOP-LEHA1130/realtime/design_1_rst_ps8_0_200M_0_stub.v:6] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'main' (21#1) [C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/new/main.v:23] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 4875.453 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 4875.453 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 4875.453 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 4875.453 ; gain = 0.000 
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 445 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2019.2 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Opt 31-140] Inserted 7 IBUFs to IO ports without IO buffers. 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [c:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_1/design_1_zynq_ultra_ps_e_0_1.xdc] for cell 'desing_ins/design_1_i/zynq_ultra_ps_e_0/inst' 
+// Tcl Message: create_clock: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 4921.707 ; gain = 46.254 
+// Tcl Message: INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Xilinx/Vivado/2019.2/data/ip/xpm/xpm_memory/tcl/xpm_memory_xdc.tcl]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/main_propImpl.xdc]. Resolution: To avoid this warning, move constraints listed in [.Xil/main_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis. 
+// Tcl Message: Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 4921.707 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary:   A total of 428 instances were transformed.   IBUF => IBUF (IBUFCTRL, INBUF): 7 instances   IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 14 instances   IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance    OBUFDS => OBUFDS: 8 instances   RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 384 instances   RAM32X1D => RAM32X1D (RAMD32(x2)): 14 instances  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:59 ; elapsed = 00:00:55 . Memory (MB): peak = 5010.004 ; gain = 134.551 
+// Tcl Message: 61 Infos, 53 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:01:00 ; elapsed = 00:00:55 . Memory (MB): peak = 5010.004 ; gain = 134.551 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// [GUI Memory]: 225 MB (+1247kb) [12:50:41]
+// Elapsed time: 55 seconds
+dismissDialog("Open Elaborated Design"); // bB (cr)
+// Elapsed time: 79 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // i (h, cr)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic (2)", 4); // i (h, cr)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // i (h, cr)
+// Elapsed time: 48 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "design_1_wrapper.v", 3); // i (h, cr)
+// WARNING: HEventQueue.dispatchEvent() is taking  10800442 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 171 MB. Current time: 12/3/21, 3:19:08 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  2563 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1455 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/3/21, 6:52:47 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1997 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1128 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/3/21, 7:22:47 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1137 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/3/21, 7:52:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/3/21, 8:22:46 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/3/21, 8:52:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/3/21, 9:22:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/3/21, 9:52:47 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/3/21, 10:22:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/3/21, 10:52:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/3/21, 11:22:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/3/21, 11:52:48 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 12:22:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 12:52:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 1:22:49 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 1:52:50 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 2:22:50 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1665 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  12926 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 16625 ms. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 2:52:51 AM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 155 ms. Decreasing delay to 2155 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/4/21, 3:22:52 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 3:52:52 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1253 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/4/21, 6:54:58 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 3:51:12 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1505 ms. Increasing delay to 4515 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1901 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  900899 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 4:21:15 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1301 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1849 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/4/21, 4:51:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 5:21:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 5:51:15 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1084 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 6:21:15 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1090 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 6:51:16 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  683111 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1497 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 7:32:32 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 3121 ms. Increasing delay to 9363 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 8:02:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 8:32:31 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 9:02:31 PM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 306515 ms. Increasing delay to 6000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1101 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 9:32:34 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 10:02:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 10:32:34 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 11:02:35 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  310740 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1461 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/4/21, 11:33:26 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1507 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 44474 ms. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/5/21, 12:03:27 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 12:33:28 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1137 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 1:03:28 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1259 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 3:40:02 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 4:10:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 4:40:05 PM CST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 6488 ms. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 6038 ms. Increasing delay to 18114 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 33 ms. Decreasing delay to 2033 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/5/21, 5:10:10 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/5/21, 5:40:11 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1051 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  553346 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1647 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/5/21, 6:11:13 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 557809 ms. Increasing delay to 1673427 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 148 ms. Decreasing delay to 2148 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 6:41:12 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 7:11:13 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  2104699 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1549 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 7:52:15 PM CST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 1782 ms. Increasing delay to 5346 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 2754 ms. Increasing delay to 8262 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 8:22:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 8:52:14 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 9:22:15 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 9:52:15 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1859 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1234 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1046 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/5/21, 10:22:16 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/5/21, 10:52:16 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1146 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1109 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 11:22:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/5/21, 11:52:17 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1074 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/6/21, 12:22:17 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1066 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/6/21, 12:52:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/6/21, 1:22:18 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1103 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/6/21, 1:52:18 AM CST
+// Elapsed time: 221980 seconds
+selectCodeEditor("design_1_wrapper.v", 287, 230); // ch (w, cr)
+selectCodeEditor("design_1_wrapper.v", 277, 219); // ch (w, cr)
+selectCodeEditor("design_1_wrapper.v", 286, 196); // ch (w, cr)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/6/21, 2:22:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/6/21, 2:52:18 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/6/21, 3:22:19 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  10800019 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/6/21, 6:32:40 AM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  32907766 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1708 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/6/21, 3:41:23 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 169 MB. Current time: 12/6/21, 4:11:22 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/6/21, 4:41:23 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/6/21, 5:11:23 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  7249755 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1608 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 4,903 MB. GUI used memory: 168 MB. Current time: 12/6/21, 7:30:58 PM CST
+// WARNING: HEventQueue.dispatchEvent() is taking  1189 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1120 ms.

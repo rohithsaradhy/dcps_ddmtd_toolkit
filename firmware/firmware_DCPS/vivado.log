@@ -2,19 +2,17 @@
 # Vivado v2019.2 (64-bit)
 # SW Build 2708876 on Wed Nov  6 21:40:23 MST 2019
 # IP Build 2700528 on Thu Nov  7 00:09:20 MST 2019
-# Start of session at: Thu Dec  2 23:25:06 2021
-# Process ID: 20756
+# Start of session at: Wed Dec  8 19:30:31 2021
+# Process ID: 18728
 # Current directory: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2004 C:\Users\naika\Documents\GitHub\dcps_ddmtd_toolkit\firmware\firmware_DCPS\project_2_bram.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9024 C:\Users\naika\Documents\GitHub\dcps_ddmtd_toolkit\firmware\firmware_DCPS\project_2_bram.xpr
 # Log file: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/vivado.log
 # Journal file: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS\vivado.jou
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.xpr
-INFO: [Project 1-313] Project file moved from '/home/rsaradhy/Work/trenz/firmware/firmware_DCPS' since last save.
 Scanning sources...
 Finished scanning sources
-CRITICAL WARNING: [Board 49-67] The board_part definition was not found for trenz.biz:te0820_2cg_1e:part0:2.0. This can happen sometimes when you use custom board part. You can resolve this issue by setting 'board.repoPaths' parameter, pointing to the location of custom board files. Valid board_part values can be retrieved with the 'get_board_parts' Tcl command.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2019.2/data/ip'.
@@ -24,44 +22,17 @@ design_1_axi_smc_1
 design_1_rst_ps8_0_200M_0
 design_1_axi_gpio_0_0
 
-open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:15 . Memory (MB): peak = 938.332 ; gain = 277.062
-reset_run synth_1
-launch_runs synth_1 -jobs 6
-INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/ip/FIFO_10/FIFO_10.xci' is already up-to-date
-[Thu Dec  2 23:38:24 2021] Launched synth_1...
-Run output will be captured here: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.runs/synth_1/runme.log
-launch_runs impl_1 -jobs 6
-INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/ip/FIFO_10/FIFO_10.xci' is already up-to-date
-[Thu Dec  2 23:42:26 2021] Launched impl_1...
-Run output will be captured here: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.runs/impl_1/runme.log
-launch_runs impl_1 -to_step write_bitstream -jobs 6
-INFO: [Vivado 12-4149] The synthesis checkpoint for IP 'C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/ip/FIFO_10/FIFO_10.xci' is already up-to-date
-[Fri Dec  3 00:05:49 2021] Launched impl_1...
-Run output will be captured here: C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.runs/impl_1/runme.log
-open_run impl_1
-INFO: [Device 21-403] Loading part xczu2cg-sfvc784-1-e
-Netlist sorting complete. Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1888.531 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 318 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
-INFO: [Project 1-479] Netlist was created with Vivado 2019.2
-INFO: [Project 1-570] Preparing netlist for logic optimization
-INFO: [Timing 38-478] Restoring timing data from binary archive.
-INFO: [Timing 38-479] Binary timing data restore complete.
-INFO: [Project 1-856] Restoring constraints from binary archive.
-INFO: [Project 1-853] Binary constraint restore complete.
-Reading XDEF placement.
-Reading placer database...
-Reading XDEF routing.
-Read XDEF File: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2562.492 ; gain = 33.066
-Restored from archive | CPU: 7.000000 secs | Memory: 0.000000 MB |
-Finished XDEF File Restore: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2562.492 ; gain = 33.066
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 2562.492 ; gain = 0.000
-INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 267 instances were transformed.
-  IBUF => IBUF (IBUFCTRL, INBUF): 7 instances
-  IBUFDS => IBUFDS (DIFFINBUF, IBUFCTRL): 13 instances
-  IBUFGDS => IBUFDS (DIFFINBUF, IBUFCTRL): 1 instance 
-  RAM32M16 => RAM32M16 (RAMD32(x14), RAMS32(x2)): 246 instances
-
-open_run: Time (s): cpu = 00:01:12 ; elapsed = 00:01:00 . Memory (MB): peak = 2759.758 ; gain = 1766.395
-open_report: Time (s): cpu = 00:01:23 ; elapsed = 00:00:36 . Memory (MB): peak = 4627.164 ; gain = 1827.633
+open_project: Time (s): cpu = 00:00:23 ; elapsed = 00:00:17 . Memory (MB): peak = 949.375 ; gain = 295.055
+open_bd_design {C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/bd/design_1/design_1.bd}
+Adding component instance block -- xilinx.com:ip:zynq_ultra_ps_e:3.3 - zynq_ultra_ps_e_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - axi_smc
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - rst_ps8_0_200M
+Adding component instance block -- xilinx.com:ip:axi_gpio:2.0 - axi_gpio_0
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_0
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - axi_bram_ctrl_0_bram
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_1
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - axi_bram_ctrl_0_bram1
+Adding component instance block -- xilinx.com:ip:blk_mem_gen:8.4 - axi_bram_ctrl_0_bram2
+Adding component instance block -- xilinx.com:ip:axi_bram_ctrl:4.1 - axi_bram_ctrl_2
+Successfully read diagram <design_1> from BD file <C:/Users/naika/Documents/GitHub/dcps_ddmtd_toolkit/firmware/firmware_DCPS/project_2_bram.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1019.586 ; gain = 0.000
