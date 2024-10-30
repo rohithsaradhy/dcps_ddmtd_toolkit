@@ -1,0 +1,10 @@
+*.txt
+*.png
+*.pyc
+acq_software/.DS_Store
+acq_software/driver/ezdma
+analysis/tools/__pycache__/base.cpython-38.pyc
+firmware/.DS_Store
+analysis/.DS_Store
+RPi/.DS_Store
+.DS_Store
